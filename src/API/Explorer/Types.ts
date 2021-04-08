@@ -220,7 +220,7 @@ export interface Price extends Token {
 
 export interface ListingAsset extends Asset {
     sales: Pick<Sale, 'market_contract' | 'sale_id'>[];
-    auction: Pick<Auction, 'market_contract' | 'auction_id'>;
+    auctions: Pick<Auction, 'market_contract' | 'auction_id'>[];
 }
 
 export interface AssetLog {
