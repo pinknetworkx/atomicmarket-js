@@ -269,6 +269,7 @@ export interface Asset {
     collection: LightCollection;
     schema: LightSchema;
     template: LightTemplate;
+    template_mint: number;
     backed_tokens: Price[];
     immutable_data: any;
     mutable_data: any;
