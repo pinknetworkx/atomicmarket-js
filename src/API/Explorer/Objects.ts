@@ -57,6 +57,7 @@ export interface IMarketConfig {
     taker_market_fee: number;
     maximum_auction_duration: number;
     minimum_bid_increase: number;
+    auction_reset_duration: number;
     supported_tokens: IMarketToken[];
     supported_pairs: IMarketPair[];
 }
