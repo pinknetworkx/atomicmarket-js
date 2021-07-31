@@ -64,7 +64,7 @@ export interface IMarketConfig {
 
 export interface IMarketAsset extends IAsset {
     sales: Array<{market_contract: string, sale_id: string}>;
-    auction: Array<{market_contract: string, auction_id: string}>;
+    auctions: Array<{market_contract: string, auction_id: string}>;
     prices: Array<{
         market_contract: string,
         token: IMarketToken,
